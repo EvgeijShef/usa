@@ -1,0 +1,641 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+/* header */
+
+.header  {
+    background: url(/jpg/backimg.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+
+
+.header__wrapper {
+    position: relative;
+}
+.menu {
+    display: flex;
+    padding-top: 47px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+
+}
+.tel {
+
+}
+
+.content {
+    max-width: 762px;
+    
+}
+
+.header__content span {
+    color: var(--unnamed, #FFF);
+
+
+font-size: 36px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.tel {
+    color: var(--unnamed, #FFF);
+
+    /* Заголовок H1 */
+    font-size: 36px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.header__content {
+
+    margin-top: 105px;
+    color: #fff;
+    font-size: 72px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+
+.header__subcontent {
+    color: var(--unnamed, #FFF);
+
+/* текст 1 */
+font-size: 18px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.header__content__btn {
+    width: 250px;
+height: 50px;
+background: #5A0D67;
+color: var(--unnamed, #FFF);
+
+/* Кнопка */
+font-size: 14px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.soccial__icons {
+    display: flex;
+    margin-top: 73px;
+    margin-left: 63px;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__img {
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    right: -100px;
+    bottom: -360px;
+    
+}
+
+/* servise */
+
+.servise {
+    margin-top: 300px;
+    margin-bottom: 100px;
+
+}
+ 
+.servise__tittle {
+    color: var(--unnamed, #21062A);
+
+/* Заголовок H1 */
+font-size: 36px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 50px;
+}
+
+.servise__subtittle {
+    color: var(--unnamed, #5A0D67);
+
+/* текст 1 */
+font-size: 18px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 12px;
+}
+
+.servise__subtittle__text {
+    
+    color: #2C2B2B;
+font-size: 18px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 12px;
+}
+
+.margin__bottom {
+    margin-bottom: 70px;
+}
+
+.servise__content {
+    max-width: 504px;
+}
+.servise__btn {
+    position: relative;
+    margin-top: 50px;
+    width: 250px;
+height: 50px;
+background-color:#5A0D67;
+color: #fff;
+/* Кнопка */
+font-size: 14px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.servise__click {
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    color: #C4C4C4;
+/* Кнопка */
+font-size: 14px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+transform: translate(-50%,-50%);
+}
+
+.servise__click::before {
+    position: absolute;
+    content: "";
+    left: -90px;
+    top: 50%;
+    display: block;
+    width: 80px;
+height: 1px;
+background: #C4C4C4;
+}
+
+.wrapper__servise {
+    display: flex;
+    gap: 96px;
+}
+
+
+.counter__items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border: 2px solid var(--unnamed, #5A0D67);
+background: #FFF;
+padding: 10px 112px 9px 20px;
+}
+.counter__number span {
+    display: block;
+    transform: rotate(-90deg);
+    font-size: 36px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.counter__tittle {
+    color: var(--unnamed, #5A0D67);
+
+/* Заголовок H2 */
+font-size: 24px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.counter__subtittle {
+    color: #000;
+margin-top: -5px;
+font-size: 18px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+/* counter */
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.subcounter {
+    width: 450px;
+    padding: 10px 0px 9px 20px;
+    border: 1px solid var(--unnamed, #C4C4C4);
+}
+
+.subcounter .counter__number span {
+    color: var(--unnamed, #C4C4C4);
+/* Заголовок H1 */
+font-size: 36px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.subcounter .counter__text .counter__tittle {
+    color: var(--unnamed, #2C2B2B);
+/* Заголовок H2 */
+font-size: 24px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.subcounter .counter__text .counter__subtittle {
+    color: var(--unnamed, #2C2B2B);
+/* текст 1 */
+font-size: 18px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+/* почему мы  */
+
+
+.wrapper__advanteges {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper__advanteges__topcar {
+}
+.advanteges__content {
+    position: relative;
+    width: 785px;
+flex-shrink: 0;
+background: var(--unnamed, #21062A);
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+}
+
+.head__advanteges {
+   position: absolute;
+   color: rgb(2, 255, 255);
+   top: -90px;
+   left: 237px;
+   color: var(--unnamed, #21062A);
+
+/* Заголовок H1 */
+font-size: 36px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+.text__content {
+    
+    max-width: 316px;
+    margin: 0 auto;
+    align-self: center;
+    
+}
+.text__content__tittle {
+    color: var(--unnamed, #FFF);
+/* Заголовок H1 */
+font-size: 36px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.text__content__subtittle {
+    color: var(--unnamed, #FFF);
+/* Заголовок H2 */
+font-size: 24px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.text__content__info {
+    color: var(--unnamed, #C4C4C4);
+
+/* текст 1 */
+font-size: 18px;
+font-family: Oswald;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.head__advanteges {
+    position: relative;
+    width: 50%;
+    
+}
+
+.head__advanteges__border::after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    top: 50%;
+height: 3px;
+background: #21062A;
+}
+
+.advanteges {
+    margin-bottom: 100px;
+}
+
+/* delivey avto */
+
+
+.delivery__avto {
+    display: flex;
+    
+    flex-direction: column;
+    padding: 18px;
+    text-align: center;
+
+}
+
+.delivery__avto__tittle {
+    margin-top: 23px ;
+    margin-bottom: 5px;
+    color: var(--unnamed, #2C2B2B);
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.delivery__avto__subtittle {
+    margin-bottom: 11px;
+    color: var(--unnamed, #2C2B2B);
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.tesla {
+    color: var(--unnamed, rgb(0, 0, 0));
+
+/* текст 1 */
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.teaslasub {
+    color: var(--unnamed, rgb(0, 0, 0));
+
+/* текст 1 */
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.lexus {
+    color: var(--unnamed, #2C2B2B);
+
+    /* текст 1 */
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.lexussub {
+    color: var(--unnamed, #2C2B2B);
+
+/* текст 1 */
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+.slick-dots li button:before {
+    
+    font-size: 0;
+    padding: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #000;
+
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap:35px ;
+}
+
+.delivery__avto:hover {
+    background-color: #5A0D67;
+    color:#FFF ;
+}
+
+
+/* footer */
+
+
+.contacts {
+    padding-top: 102px;
+
+}
+
+.wrapper__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.main__contacts {
+}
+.contacts__tittle {
+    color: var(--unnamed, #21062A);
+
+padding-bottom: 50px;
+font-family: Oswald;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.contacts__info {
+    color: #5A0D67;
+
+/* текст 1 */
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.contacts__info__subtittle {
+    font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+color: #000;
+}
+
+.bottom {
+    padding-bottom: 20px;
+}
+.application {
+    width: 600px;
+height: 466px;
+flex-shrink: 0;
+background: #21062A;
+}
+.aplication__info {
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.aplication__tittle {
+    color: var(--unnamed, #FFF);
+
+/* Заголовок H1 */
+font-family: Oswald;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.aplication__input__name {
+    width: 450px;
+height: 75px;
+color: var(--unnamed, #C4C4C4);
+/* текст 1 */
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+border: 1px solid #FFF;
+margin: 12px;
+}
+.aplication__input__tel {
+    width: 450px;
+height: 75px;
+text-align: center;
+border: 1px solid #FFF;
+margin-bottom: 92px;
+color: #FFF;
+}
+.aplication__btn {
+    width: 250px;
+height: 50px;
+background: var(--unnamed, #5A0D67);
+color: var(--unnamed, #FFF);
+/* Кнопка */
+font-family: Oswald;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
+/* footer */
+
+.footer__panel {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+background: var(--unnamed, #21062A);
+}
+
+.footer__line {
+    width: 1600px;
+height: 100px;
+background: var(--unnamed, #21062A);
+
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo {
+    
+}
+.footer__item {
+    gap: 10px;
+}
+.text__politic {
+    color: var(--unnamed, #FFF);
+
+/* текст 1 */
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}

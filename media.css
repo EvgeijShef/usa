@@ -1,0 +1,158 @@
+@media(max-width:1400px)
+{
+    .header__img {
+        right: 0;
+        
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .wrapper__contacts {
+        justify-content: space-around;
+    }
+}
+@media(max-width:1275px) {
+    .advanteges__content{
+        width: 50%;
+    }
+    .wrapper__advanteges {
+        justify-content: space-around;
+    }
+    .wrapper__servise {
+        gap: 0;
+    }
+
+}
+
+@media(max-width:1145px){
+    .wrapper__advanteges{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:1050px){
+    .head__advanteges__border::after {
+        display: none;
+    }
+    .head__advanteges {
+        left: 170px;
+        
+        
+    }
+
+    .wrapper__contacts {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        
+    }
+}
+
+
+
+@media(max-width:845px)
+{
+    .header__content {
+        font-size: 32px;
+        line-height: normal;
+    }
+    .header__content span {
+        font-size: 32px;
+    }
+    .wrapper__servise {
+        flex-direction: column;
+        
+    }
+    .counter__items {
+        width: 70%;
+    }
+
+    .head__advanteges {
+        font-size: 28px;
+    }
+}
+
+@media(max-width:650px)
+{
+    .header__content {
+        font-size: 28px;
+    }
+    .header__content span {
+        font-size: 28px;
+    }
+    .servise__btn {
+        margin-bottom: 20px;
+    }
+    .head__advanteges {
+        font-size: 22px;
+        left: 85px; 
+    }
+    .advanteges__content {
+        text-align: center;
+    }
+    .text__content__tittle {
+        font-size: 28px;
+    }
+    .text__content__subtittle {
+        font-size: 20px;
+    }
+    .soccial__icons {
+        padding-right: 100px;
+        padding-bottom: 30px;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:500px){
+    .wrapper__advanteges {
+        flex-direction: column;
+        row-gap: 80px;
+        align-items: center;
+    }
+    .head__advanteges {
+        font-size: 18px;
+        left: 25%;
+    }
+    .tel {
+        font-size: 22px;
+    }
+    .application {
+        width: 80%;
+    }
+    .aplication__tittle {
+        font-size: 22px;
+    }
+    .aplication__input__name {
+        width: 70%;
+        height: 45px;
+    }
+    .aplication__input__tel {
+        width: 70%;
+        height: 45px;
+    }
+    .footer__logo {
+        width: 20%;
+    }
+    .text__politic {
+        font-size: 14px;
+    }
+    .footer__wrapper {
+        justify-content: space-around;
+    }
+    .counter {
+        align-items: center;
+    }
+    .servise__btn {
+        align-items: center;
+        width: 40%;
+        left: 30%;
+    }
+    .servise__click::before {
+        display: none;
+}
+.servise__click {
+    display: none;
+}
+
+}
